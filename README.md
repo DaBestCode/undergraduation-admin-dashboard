@@ -110,20 +110,22 @@ Set up users in your Firebase auth console.
 Login via the app, then you can view/add/manage students!
 
 🗂️ Codebase Structure
+
+
 undergraduation-admin-dashboard/
 │
-├── client/           # React app (frontend)
+├── client/                           # React app (frontend)
 │   ├── src/
-│   │   ├── apiRequest.js              # Axios utility, handles authorization
-│   │   ├── firebaseConfig.js          # Uses .env for Firebase settings
-│   │   ├── components/                # Main React components
+│   │   ├── apiRequest.js             # Axios utility, handles authorization
+│   │   ├── firebaseConfig.js         # Uses .env for Firebase settings
+│   │   ├── components/               # Main React components
 │   │   │   ├── StudentList.js
 │   │   │   └── StudentProfile.js
 │   │   └── ...
-│   ├── .env.example                   # Sample environment config (never commit real .env)
+│   ├── .env.example                  # Sample environment config (never commit real .env)
 │   └── ...
 │
-├── server/           # Node.js backend (Express + Firebase Admin)
+├── server/                           # Node.js backend (Express + Firebase Admin)
 │   ├── server.js                     # Main Express app, routes, auth middleware
 │   ├── serviceAccountKey.json.example# Sample for backend Firebase credential
 │   └── ...
@@ -131,6 +133,7 @@ undergraduation-admin-dashboard/
 ├── README.md
 ├── .gitignore
 └── ...
+
 
 🔒 Security Notes
 Keep all secrets/keys out of GitHub!
