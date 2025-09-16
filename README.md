@@ -13,8 +13,8 @@ A modern, internal CRM web dashboard to help Undergraduation.com manage and trac
 ## 🛠️ Tech Stack
 
 - **Frontend**: React + Tailwind CSS (v3)
-- **Backend**: Mocked (Firebase-ready)
-- **Database**: Mock/Static (Firebase schema compatible)
+- **Backend**: Node/Express
+- **Database**: Firebase
 - **Authentication**: Firebase Auth
 
 ---
