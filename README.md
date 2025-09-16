@@ -62,18 +62,15 @@ A modern, internal CRM web dashboard to help Undergraduation.com manage and trac
 
 🚀 Setup Instructions
 1. Clone the Repository
-text
 git clone https://github.com/DaBestCode/undergraduation-admin-dashboard.git
 cd undergraduation-admin-dashboard
 2. Install Dependencies
 Frontend:
 
-text
 cd client
 npm install
 Backend:
 
-text
 cd ../server
 npm install
 3. Configure Firebase Secrets (Do NOT Commit Real Keys!)
@@ -81,7 +78,6 @@ Frontend (client):
 
 Copy .env.example → .env and fill in your Firebase Web config.
 
-text
 REACT_APP_FIREBASE_API_KEY=your-api-key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
 REACT_APP_FIREBASE_PROJECT_ID=your-project-id
@@ -102,12 +98,10 @@ You may look at serviceAccountKey.json.example for expected structure.
 4. Start Development Servers
 Backend (from /server):
 
-text
 npm start
 # Express API listens on http://localhost:5000/
 Frontend (from /client):
 
-text
 npm start
 # React app on http://localhost:3000/
 5. First-Time Use
@@ -116,7 +110,6 @@ Set up users in your Firebase auth console.
 Login via the app, then you can view/add/manage students!
 
 🗂️ Codebase Structure
-text
 undergraduation-admin-dashboard/
 │
 ├── client/           # React app (frontend)
