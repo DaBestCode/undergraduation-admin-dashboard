@@ -6,7 +6,7 @@ A modern, internal CRM web dashboard to help Undergraduation.com manage and trac
 
 ## 🚀 Live Demo
 
-- [[Loom video walkthrough]]([(https://www.loom.com/share/850d8b56e3d24245872c3bf1ce2887b7)])
+- [[Loom video walkthrough]]([https://www.loom.com/share/850d8b56e3d24245872c3bf1ce2887b7])
 
 ---
 
