@@ -58,8 +58,8 @@ A modern, internal CRM web dashboard to help Undergraduation.com manage and trac
 
 > Use these credentials to access the admin dashboard for review:
 >
-> **Email:** `testadmin@undergraduation.com`  
-> **Password:** `testpassword123`
+> **Email:** `Undergraduation@gmail.com`  
+> **Password:** `password`
 
 ---
 
