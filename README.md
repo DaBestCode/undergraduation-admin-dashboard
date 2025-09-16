@@ -131,6 +131,7 @@ undergraduation-admin-dashboard/
 ├── README.md
 ├── .gitignore
 └── ...
+
 🔒 Security Notes
 Keep all secrets/keys out of GitHub!
 
